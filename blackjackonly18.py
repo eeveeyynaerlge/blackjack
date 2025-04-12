@@ -49,7 +49,7 @@ dcard3 = 0
 dcard4 = 0
 dcard5 = 0
 
-while dcard1 + dcard2 + dcard3 + dcard4 + dcard5 < card1 + card2 + card3 + card4 + card5 and dcard1 + dcard2 + dcard3 + dcard4 + dcard5 < 21: 
+while dcard1 + dcard2 + dcard3 + dcard4 + dcard5 < card1 + card2 + card3 + card4 + card5 and dcard1 + dcard2 + dcard3 + dcard4 + dcard5 < 18: 
     # Dealer's turn
     if dcard3 == 0:
         dcard3 = deck.pop(0)
