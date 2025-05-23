@@ -77,3 +77,5 @@ else:
     print("It's a tie!")
 
 print("Thanks for playing!")
+
+input()
